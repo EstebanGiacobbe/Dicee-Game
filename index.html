@@ -18,22 +18,27 @@
 
   <div class="container">
 
+    <div class="row">
+      <div class="col-lg-6">
+        <p id="player-name">Player 1</p>
+        <img class="img1" src="images/dice6.png">
+      </div>
 
-    <div class="dice">
-      <p id="player-name">Player 1</p>
-      <img class="img1" src="images/dice6.png">
-    </div>
+      <div class="col-lg-6">
+        <p>CPU</p>
+        <img class="img2" src="images/dice6.png">
 
-    <div class="dice">
-      <p>CPU</p>
-      <img class="img2" src="images/dice6.png">
-
+      </div>
     </div>
 
   </div>
-  <div class="re-play">
-    <button onclick="renamePlayer()" type="button" class="btn btn-dark btn-lg">Rename player!</button>
-    <button onclick="startGame()" type="button" class="btn btn-outline-dark btn-lg">Roll the dice!</button>
+  <div class="row">
+    <div class="col-lg-6">
+      <button onclick="renamePlayer()" type="button" class="btn btn-dark btn-lg">Rename player!</button>
+    </div>
+    <div class="col-lg-6">
+      <button onclick="startGame()" type="button" class="btn btn-outline-dark btn-lg">Roll the dice!</button>
+    </div>
   </div>
 
 

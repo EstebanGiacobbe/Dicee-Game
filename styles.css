@@ -11,22 +11,17 @@
   text-align: center;
 }
 
-.dice {
+/* .dice {
   text-align: center;
   display: inline-block;
 
-}
-
-.re-play{
+} */
+.col-lg-6{
   text-align: center;
 }
 
 .btn{
   margin: 20px 40px;
-}
-
-.btn-dark{
-  margin-left: 15px;
 }
 
 body {
@@ -48,7 +43,7 @@ p {
 }
 
 img {
-  width: 80%;
+  width: 50%;
 }
 
 footer {
@@ -70,4 +65,14 @@ footer {
   font-size: 1rem;
   color: black;
   font-family: 'Indie Flower', cursive;
+}
+
+@media (min-width: 1028px) {
+  .btn-outline-dark{
+    margin: 20px 190px 20px 40px;
+  }
+
+  .btn-dark{
+    margin: 20px 40px 20px 190px;
+  }
 }
